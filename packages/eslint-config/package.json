@@ -1,0 +1,24 @@
+{
+  "name": "@ng-blogs/eslint-config",
+  "version": "0.0.0-semantically-released",
+  "description": "",
+  "main": "src/index.cjs",
+  "types": "src/index.cjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rencedm112/eslint-config": "^0.0.5",
+    "@typescript-eslint/parser": "^7.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": ">=8.7.0",
+    "@typescript-eslint/eslint-plugin": ">=5.55.0"
+  }
+}

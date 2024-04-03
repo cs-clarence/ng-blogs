@@ -1,0 +1,17 @@
+{
+  "name": "@ng-blogs/prettier-config",
+  "version": "0.0.0-semantically-released",
+  "description": "",
+  "main": "src/index.cjs",
+  "types": "src/index.cjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rencedm112/prettier-config": "^3.2.0",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  }
+}

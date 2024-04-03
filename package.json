@@ -1,0 +1,9 @@
+{
+  "name": "@ng-blogs/root",
+  "workspaces": [
+    "packages/ts/*",
+    "packages/*",
+    "apps/ts/*"
+  ],
+  "packageManager": "bun@1.1.1"
+}

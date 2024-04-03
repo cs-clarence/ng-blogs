@@ -1,0 +1,8 @@
+# Dependencies and Build artifacts
+node_modules
+.terraform
+target
+
+# Auto-generated files
+changelogs
+packages/grpc-web-client/src/*
