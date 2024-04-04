@@ -2,6 +2,11 @@ import { Component } from "@angular/core";
 import { injectContentFiles } from "@analogjs/content";
 import type PostAttributes from "../../post-attributes";
 import { RouterLink } from "@angular/router";
+import type { RouteMeta } from "@analogjs/router";
+
+export const routeMeta: RouteMeta = {
+    title: "Blog Archive",
+};
 
 @Component({
     selector: "app-blog",
